@@ -1,0 +1,18 @@
+{
+  "name": "router-one-node-examples",
+  "private": true,
+  "type": "module",
+  "description": "Node.js examples for the Router One LLM API gateway",
+  "scripts": {
+    "chat": "node openai-chat.mjs",
+    "streaming": "node openai-streaming.mjs",
+    "anthropic": "node anthropic-messages.mjs",
+    "ai-sdk": "node vercel-ai-sdk.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.0.0",
+    "@anthropic-ai/sdk": "^0.30.0",
+    "ai": "^4.0.0",
+    "openai": "^4.60.0"
+  }
+}
